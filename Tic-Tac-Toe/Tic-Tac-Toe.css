@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+   list-style-type: none;
+}
+nav{
+    background-color: rgb(37, 9,37);
+    color: white;
+    height: 60px;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+.container{
+  
+  display: flex;
+ /* margin: auto; sgl khi center la */
+ justify-content: center;
+ margin-top: 50px;
+
+}
+.one{
+display: grid;
+grid-template-rows: repeat(3,10vw);
+grid-template-columns: repeat(3,10vw);
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box:hover{
+    background-color:pink;
+    cursor: pointer;
+}
+.info{
+    padding: 0 34px;
+    margin-left: 100px;
+}
+.info h1{
+    font-size: 3em;
+    color: darkmagenta;
+}
+.img{
+    display: none;
+}
+
+
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.info2{
+    height: 50px;
+    width: 200px;
+    font-size: 2em;
+    color: black;
+    margin-top: 50px;
+}
+.winnerInfo{
+    margin-top: 50px;
+    font-size: 3em;
+}
