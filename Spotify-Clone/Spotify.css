@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.nav{
+    display: flex;
+    justify-content:flex-start;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.logo{
+    margin-left: 20px;
+    align-items: center;
+}
+.home{
+    margin-left: 100px;
+}
+.about{
+    margin-left: 200px;
+}
+.name{
+    margin-left: 20px;
+}
+
+#img1{
+    height:48px;
+
+    object-fit: cover;
+}
+.container{
+    min-height: 70vh;
+    background-color:white;
+    color:white;
+
+    display: flex;  /* 3 lines are imp = container mdhi anla yanni */
+    margin: 23px  auto;
+    width: 70%;
+
+    border-radius: 12px;
+    padding: 34px;
+    margin-top: 10px;
+
+    background-image: url('spotify-song-bg.jpg');
+    background-size: cover;
+
+
+
+    
+}
+.gif{
+    height: 500px;
+    width: 400px;
+    margin-left:120px;
+    margin-top: 120px;
+    
+}
+.bottom{
+    color: white;
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column; /*have to find */
+    
+}
+#progbar{
+  width:80vh;
+  margin-top: 16px;
+  cursor: pointer;
+
+}
+.icons{
+    width: 400px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.icons i{
+    cursor: pointer; /* remenber */
+}
+.songlist{
+    
+    width: 500px;
+    
+   /* margin-right: 500px; */
+    
+}
+
+.songItems{
+    height: 50px;
+    display: flex;
+
+    width:500px;
+    color: black;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 34px;
+    background-color: pink;
+    margin-top: 50px;
+  
+
+}
+.songItems img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 30px;
+}
+.fav{
+    height: 30px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size:2em;
+}
+.timestamp{
+    margin-right: 15px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+
