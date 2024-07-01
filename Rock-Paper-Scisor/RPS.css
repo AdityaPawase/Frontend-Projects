@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#title{
+    text-align: center;
+    background-color:#081b31;
+    color: white;
+    font-size: 50px;
+    height: 80px;
+    line-height: 5rem; /* vrun 5 rem height sutel  */
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover; /* images div mdhe fit krayla */
+    border-radius: 50%; /* images circle mdhe convert hotil */
+}
+.choices{
+    display: inline-flex;
+    margin-top: 100px;
+    gap: 5rem;
+
+}
+.choice:hover{
+    background-color:#081b31 ;
+    cursor: pointer;
+  
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 10rem;
+}
+#u-score,#c-score{
+    font-size: 4rem;
+}
+#msg{
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    display: inline; /* aplyala purn mothi bg la line nkoy , fkt specific part la bg line highlight hwa */
+    border-radius: 1rem;
+    padding: 1%;
+}
+.msg-container{
+    margin-top: 5rem;
+   
+}
+
+
