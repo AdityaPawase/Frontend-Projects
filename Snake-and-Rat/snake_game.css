@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+   
+}
+.snake{
+    height: 200px;
+    width: 300px;
+    background-image: url('snake_png.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+    position: relative;
+    top: 600px;
+    
+}
+.RotateSnakeToLeft{
+    transform:scaleX(1);
+}
+.RotateSnakeToUp{
+    transform:rotate(90deg)scaleY(-1);
+}
+.RotateSnakeToDown{
+    transform:rotate(250deg)scaleY(1);
+    transform-origin: bottom;
+}
+.score{
+    display: flex;
+    background-image:radial-gradient(farthest-corner,white,gray);
+}
+.eat{
+    position: relative;
+    top: 60px;
+  /*  left: 800px;  */
+  left: 300px;
+    height: 100px;
+    width: 100px;
+    font-size: 2em;
+    color: blueviolet;
+}
+.giveUp{
+    position: relative;
+    top: 60px;
+  /*  left: 850px;  */
+    height: 100px;
+    width: 200px;
+    font-size: 2em;
+    color: blueviolet;
+
+}
+.food{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    display: none;
+
+}
+.gameStart{
+    height: 30px;
+    width: 500px;
+    position: relative;
+    top: 30px;
+  /*  left: 700px;  */
+    font-size: 3em;
+    color:red;
+}
+.gameBox{
+    position: absolute;
+    height: 820px;
+    width: 1960px;
+    border: 2px solid black;
+    top: 140px;
+    left: 4px;
+    overflow: hidden;
+  
+}
+#mygif{
+    position: absolute;
+    display: none;
+    height: 100px;
+    width: 100px;
+}
+
+   
